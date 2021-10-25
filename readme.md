@@ -3,7 +3,8 @@
 ## Table of contents
 1. [How to configure profiles](#How-to-configure-profiles)
 2. [Windows 11/10 multi-session (Computer Settings only)](#windows-1110-multi-session-computer-settings-only)
-3. [Troubleshooting](#Troubleshooting)
+3. [Where is the option "gpupdate /force"?](#where-is-the-option-gpupdate-force)
+4. [Troubleshooting](#Troubleshooting)
 
 ## How to configure profiles
 
@@ -99,9 +100,7 @@ These settings are based on the [Virtual-Desktop-Optimization-Tool](https://gith
 
 > The settings for chat icon and widgets are effective only on Windows 11.
 
-## Troubleshooting
-
-### Where is the option "gpupdate /force"?
+## Where is the option "gpupdate /force"?
 
 Short answer: It's gone and it's not coming back. Without Hybrid-Joined Machine, Active Directory features like Group Policy objects are not available. Azure Active Directory connected machines are managed only by Intune configuration profiles. 
 
@@ -113,6 +112,8 @@ Get-ScheduledTask | ? {$_.TaskName -eq "Schedule to run OMADMClient by client"} 
 As Administrator, you will find many **Schedule Tasks** for the MDM Synchronization under **Microsoft > Windows > EnterpriseMgmt > GUID** in the Task Scheduler. In addition, it is shown at which times the sync is executed automatically (Schedule #1 to #3). 
 
 ![pic003.png](/media/pic003.png)
+
+## Troubleshooting
 
 ### How to collect logs directly from the client
 
