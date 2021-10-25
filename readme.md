@@ -53,6 +53,7 @@ These settings are based on the [Virtual-Desktop-Optimization-Tool](https://gith
 |Do not allow the computer to act as a BITS Peercaching client|Enabled|
 |Do not allow the computer to act as a BITS Peercaching server|Enabled|
 |Specify passive polling|Enabled|
+|Disable passive polling (Device)|True|
 |Turn off "Found New Hardware" balloons during device installation|Enabled|
 |Continue experiences on this device|Disabled|
 |Turn off access to all Windows Update features|Enabled|
@@ -67,11 +68,12 @@ These settings are based on the [Virtual-Desktop-Optimization-Tool](https://gith
 |Show clear logon background|Enabled|
 |Turn off System Restore|Enabled|
 |Configure Scheduled Maintenance Behavior|Disabled|
+|Execution Level (Device)|Regular|
 |Configure Security Policy for Scripted Diagnostics|Disabled|
 |Troubleshooting: Allow users to access and run Troubleshooting Wizards|Disabled|
 |Troubleshooting: Allow users to access online troubleshooting content on Microsoft servers from the Troubleshooting Control Panel (via the Windows Online Troubleshooting Service - WOTS)|Disabled|
 |Turn off Inventory Collector|Enabled|
-|Set the default behavior for AutoRun|Enabled|
+|Set the default behavior for AutoRun|Do not execute any autorun commands|
 |Do not allow window animations|Enabled|
 |Do not show the 'new application installed' notification|Enabled|
 |Prevent the computer from joining a homegroup|Enabled|
@@ -90,7 +92,8 @@ These settings are based on the [Virtual-Desktop-Optimization-Tool](https://gith
 |Allow Offline Maps Download Over Metered Connection|Disabled.Force disable auto-update over metered connection.|
 |Allow Game DVR|Block|
 |Allow user feedback|Disabled|
-|Automatically import another browser's data and settings at first run|Disables automatic import| and the import section of the first-run experience is skipped|
+|Automatically import another browser's data and settings at first run|Enabled||
+|Automatically import another browser's data and settings at first run (Device)|Disables automatic import and the import section of the first-run experience is skipped|
 |Block all ads on Bing search results|Enabled|
 |Hide the First-run experience and splash screen|Enabled|
 |Disable Advertising ID|Disabled|
