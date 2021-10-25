@@ -82,7 +82,7 @@
 |Allow Game DVR|Block|
 |Allow user feedback|Disabled|
 |Automatically import another browser's data and settings at first run|Disables automatic import| and the import section of the first-run experience is skipped|
-|Block| all ads on Bing search results|Enabled|
+|Block all ads on Bing search results|Enabled|
 |Hide the First-run experience and splash screen|Enabled|
 |Disable Advertising ID|Disabled|
 |Allow Online Tips|Block|
