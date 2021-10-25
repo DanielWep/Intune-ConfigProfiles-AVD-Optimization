@@ -2,7 +2,7 @@
 
 ## Table of contents
 1. [How to configure profiles](#How-to-configure-profiles)
-2. [Windows 11/10 multi-session (Computer Settings only)](#windows-1110-multi-session-computer-settings-only)
+2. [Windows 11/10 multi-session settings (Computer Settings only)](#windows-1110-multi-session-computer-settings-only)
 3. [Where is the option "gpupdate /force"?](#where-is-the-option-gpupdate-force)
 4. [Troubleshooting](#Troubleshooting)
 
@@ -36,7 +36,7 @@
 
 10. Configure a Scope tag if needed otherwise **Next** and then **Review + create** for creating this Configuration Profile.
 
-## Windows 11/10 multi-session (Computer Settings only)
+## Windows 11/10 multi-session settings (Computer Settings only)
 
 > User settings for Windows 11/10 multi-session are currently not supported. [See more details here.](https://docs.microsoft.com/en-us/mem/intune/fundamentals/azure-virtual-desktop-multi-session#overview)
 
