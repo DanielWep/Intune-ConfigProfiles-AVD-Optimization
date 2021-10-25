@@ -80,7 +80,6 @@
 |Always Enable Books Library|Disabled|
 |DO Download Mode|9 - Simple download mode with no peering. Delivery Optimization downloads using HTTP only and does not attempt to contact the Delivery Optimization cloud services. Added in Windows 10| version 1607.
 |Allow Find My Device|Block|
-|Allow Windows Spotlight (User)|Block|
 |Configure Chat Icon|Disabled|
 |Allow Edge Swipe|Block|
 |Allow Offline Maps Download Over Metered Connection|Disabled.Force disable auto-update over metered connection.|
