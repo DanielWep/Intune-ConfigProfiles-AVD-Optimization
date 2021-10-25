@@ -108,7 +108,7 @@ Get-ScheduledTask | ? {$_.TaskName -eq "Schedule to run OMADMClient by client"} 
 ```
 As Administrator, you will find many **Schedule Tasks** for the MDM Synchronization under **Microsoft > Windows > EnterpriseMgmt > GUID** in the Task Scheduler. In addition, it is shown at which times the sync is executed automatically (Schedule #1 to #3). 
 
-![pic003.png](/media/pic003.png){:height="50%" width="50%"}
+![pic003.png](/media/pic003.png)
 
 ### How to collect logs directly from the client
 
