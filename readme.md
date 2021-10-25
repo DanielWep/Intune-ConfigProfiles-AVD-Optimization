@@ -94,8 +94,10 @@ These settings are based on the [Virtual-Desktop-Optimization-Tool](https://gith
 |Allow Online Tips|Block|
 |Allow Disk Health Model Updates|Do not allow|
 |Allow Linguistic Data Collection|Block|
-|Allow widgets|Not allowed.|
+|Allow widgets|Not allowed|
 |Manage Preview Builds|Disable Preview builds|
+
+> The settings for chat icon and widgets are effective only on Windows 11.
 
 ## Troubleshooting
 
