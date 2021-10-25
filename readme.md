@@ -20,13 +20,13 @@
 
 ![pic002.png](/media/pic002.png)
 
-7. Now you can search for a setting and enable this setting for your profile.
+7. Now you can **search for a setting** and enable this setting for your profile.
 
 > The user settings are shown as (users) not yet supported for Windows 11/10 Multisession.
 
-8. After pick your settings, you need to configure these settings and click on **Next**.
+8. After pick your settings, you need to **configure these settings** and click on **Next**.
 
-9. Assign this profile to a device or user group for non-multi-session operating systems and **Next**.
+9. **Assign this profile** to a device or user group for non-multi-session operating systems and **Next**.
 
 10. Configure a Scope tag if needed otherwise **Next** and then **Review + create** for creating this Configuration Profile.
 
