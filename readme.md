@@ -2,7 +2,7 @@
 
 ## Table of contents
 1. [How to configure profiles](#How-to-configure-profiles)
-2. [Windows 11/10 multi-session (Computer Settings only)](#Windows-11/10-multi-session-(ComputerSettings-only))
+2. [Windows 11/10 multi-session (Computer Settings only)](#windows-1110-multi-session-computer-settings-only)
 
 ## How to configure profiles
 
