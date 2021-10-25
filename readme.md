@@ -1,9 +1,40 @@
-# Intune Configuration Policies for VDI Optimization
+# Intune Configuration Profiles for VDI Optimization
+
+## How to configure profiles
+
+1. Open the [**Microsoft Endpoint Manager**](https://endpoint.microsoft.com/) an sign-in with your **Intune Administrator** or different user who has enough permission to configure Windows policies. 
+
+2.  Navigate to Devices > Windows > Configuration profiles and click on **Create profile**.
+
+3. Select **Windows 10 and later** as the Platform and **Settings catalog (preview)** as the Profile type. Then click on **Create**.
+
+![pic000.png](media\pic000.png)
+
+4. Enter **your profile name** following your naming convention and **Next**.
+
+5. Click on **Add settings** to open the settings catalog.
+
+![pic001.png](media\pic001.png)
+
+6. Add the following **filter** in the settings picker to get only the supported settings for **Windows 10/11 Enterprise multi-session**.
+
+![pic002.png](media\pic002.png)
+
+7. Now you can search for a setting and enable this setting for your profile.
+
+> The user settings are shown as (users) not yet supported for Windows 11/10 Multisession.
+
+8. After pick your settings, you need to configure these settings and click on **Next**.
+
+9. Assign this profile to a device or user group for non-multi-session operating systems and **Next**.
+
+10. Configure a Scope tag if needed otherwise **Next** and then **Review + create** for creating this Configuration Profile.
+
 ## Windows 11/10 multi-session (Computer Settings only)
 
 > User settings for Windows 11/10 multi-session are currently not supported. [See more details here.](https://docs.microsoft.com/en-us/mem/intune/fundamentals/azure-virtual-desktop-multi-session#overview)
 
-|Settings Description   | Value  |
+|Setting   | Value  |
 |---|---|
 |Force a specific default lock screen and logon image|Enabled||
 |Path to lock screen image: (Device)|C:\Windows\web\screen\img105.jpg|
