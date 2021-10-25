@@ -8,17 +8,17 @@
 
 3. Select **Windows 10 and later** as the Platform and **Settings catalog (preview)** as the Profile type. Then click on **Create**.
 
-![pic000.png](media\pic000.png)
+![pic000.png](/media/pic000.png)
 
 4. Enter **your profile name** following your naming convention and **Next**.
 
 5. Click on **Add settings** to open the settings catalog.
 
-![pic001.png](media\pic001.png)
+![pic001.png](/media/pic001.png)
 
 6. Add the following **filter** in the settings picker to get only the supported settings for **Windows 10/11 Enterprise multi-session**.
 
-![pic002.png](media\pic002.png)
+![pic002.png](/media/pic002.png)
 
 7. Now you can search for a setting and enable this setting for your profile.
 
