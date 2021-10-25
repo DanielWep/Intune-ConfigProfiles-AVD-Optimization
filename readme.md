@@ -1,7 +1,7 @@
 # Intune Configuration Policies for VDI Optimization
 ## Windows 11/10 multi-session (Computer Settings only)
 
-> User settings for Windows 11/10 Multisession are currently not supported. [See more details here.](https://docs.microsoft.com/en-us/mem/intune/fundamentals/azure-virtual-desktop-multi-session#overview)
+> User settings for Windows 11/10 multi-session are currently not supported. [See more details here.](https://docs.microsoft.com/en-us/mem/intune/fundamentals/azure-virtual-desktop-multi-session#overview)
 
 |Settings Description   | Value  |
 |---|---|
