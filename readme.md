@@ -2,7 +2,7 @@
 
 ## Table of contents
 1. [How to configure profiles](#How-to-configure-profiles)
-2. [Windows 11/10 multi-session settings (Computer Settings only)](#windows-1110-multi-session-computer-settings-only)
+2. [Windows 11/10 multi-session settings (Computer Settings only)](#windows-1110-multi-session-settings-computer-settings-only)
 3. [Where is the option "gpupdate /force"?](#where-is-the-option-gpupdate-force)
 4. [Troubleshooting](#Troubleshooting)
 
