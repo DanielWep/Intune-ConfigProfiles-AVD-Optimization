@@ -39,6 +39,8 @@
 
 > User settings for Windows 11/10 multi-session are currently not supported. [See more details here.](https://docs.microsoft.com/en-us/mem/intune/fundamentals/azure-virtual-desktop-multi-session#overview)
 
+These settings are based on the [Virtual-Desktop-Optimization-Tool](https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool):
+
 |Setting   | Value  |
 |---|---|
 |Force a specific default lock screen and logon image|Enabled||
