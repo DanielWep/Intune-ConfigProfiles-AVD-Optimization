@@ -73,7 +73,8 @@ These settings are based on the [Virtual-Desktop-Optimization-Tool](https://gith
 |Troubleshooting: Allow users to access and run Troubleshooting Wizards|Disabled|
 |Troubleshooting: Allow users to access online troubleshooting content on Microsoft servers from the Troubleshooting Control Panel (via the Windows Online Troubleshooting Service - WOTS)|Disabled|
 |Turn off Inventory Collector|Enabled|
-|Set the default behavior for AutoRun|Do not execute any autorun commands|
+|Set the default behavior for AutoRun|Enabled|
+|Default AutoRun Behavior|Do not execute any autorun commands|
 |Do not allow window animations|Enabled|
 |Do not show the 'new application installed' notification|Enabled|
 |Prevent the computer from joining a homegroup|Enabled|
@@ -88,6 +89,7 @@ These settings are based on the [Virtual-Desktop-Optimization-Tool](https://gith
 |DO Download Mode|9 - Simple download mode with no peering. Delivery Optimization downloads using HTTP only and does not attempt to contact the Delivery Optimization cloud services. Added in Windows 10| version 1607.
 |Allow Find My Device|Block|
 |Configure Chat Icon|Disabled|
+|Do Not Show Feedback Notifications|Feedback notifications are disabled.|
 |Allow Edge Swipe|Block|
 |Allow Offline Maps Download Over Metered Connection|Disabled.Force disable auto-update over metered connection.|
 |Allow Game DVR|Block|
