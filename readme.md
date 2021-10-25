@@ -102,15 +102,13 @@
 Short answer: It's gone and it's not coming back. Without Hybrid-Joined Machine, Active Directory features like Group Policy objects are not available. Azure Active Directory connected machines are managed only by Intune configuration profiles. 
 
 However, there is a way to manually synchronize the latest MDM settings from the client. Run the following commands in the evaluated Powershell:
-
 ```
 Get-ScheduledTask | ? {$_.TaskName -eq "PushLaunch"} | Start-ScheduledTask                      
 Get-ScheduledTask | ? {$_.TaskName -eq "Schedule to run OMADMClient by client"} | Start-ScheduledTask
 ```
-
 As Administrator, you will find many **Schedule Tasks** for the MDM Synchronization under **Microsoft > Windows > EnterpriseMgmt > GUID** in the Task Scheduler. In addition, it is shown at which times the sync is executed automatically (Schedule #1 to #3). 
 
-![pic003.png](/media/pic003.png)
+![pic003.png](/media/pic003.png) {400}
 
 ### How to collect logs directly from the client
 
@@ -118,16 +116,19 @@ Windows 10/11 includes a [MDM diagnostic tool](https://docs.microsoft.com/en-us/
 
 The commands can be performed via CMD or Powershell.
 
+> The output paths are examples and must be modified to best fit your environment. 
+
 This command creates a collection of all important log files, which in most cases help to solve the problems. 
 ```
 mdmdiagnosticstool.exe -out C:\Users\Public\Documents\
 ```
 Here is an example for output:
+
 ![pic004.png](/media/pic004.png)
 
 The file **MDMDiagReport.html** gives a good overview of the MDM status and which policies are applied and which are not. It is comparable to the good old gpresult tool.
 
 For deeper analysis, you can use this command to create a CAB file that contains more event logs, tpm information, and more. 
 ```
-mdmdiagnosticstool.exe -area DeviceEnrollment;DeviceProvisioning;Autopilot -cab c:\users\public\documents\MDMDiagReport.cab
+mdmdiagnosticstool.exe -area DeviceEnrollment;DeviceProvisioning;Autopilot -cab C:\Users\Public\Documents\MDMDiagReport.cab
 ```
