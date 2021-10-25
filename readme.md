@@ -1,8 +1,8 @@
 # Intune Configuration Profiles for VDI Optimization
 
 ## Table of contents
-1. [How to configure profiles](##How-to-configure-profiles)
-2. [Windows 11/10 multi-session (Computer Settings only)](##Windows-11/10-multi-session-(ComputerSettings-only))
+1. [How to configure profiles](#How-to-configure-profiles)
+2. [Windows 11/10 multi-session (Computer Settings only)](#Windows-11/10-multi-session-(ComputerSettings-only))
 
 ## How to configure profiles
 
