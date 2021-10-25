@@ -1,4 +1,6 @@
-# Intune Configuration Profiles for VDI Optimization
+# Intune Configuration Profiles for AVD Optimization
+
+This document is designed to give you an overview of how to optimize your Azure Virtual Desktop virtual machines managed by Microsoft Endpoint Manager / Intune and based on the Windows 10/11 multi-session operating system.
 
 ## Table of contents
 1. [How to configure profiles](#How-to-configure-profiles)
