@@ -8,7 +8,7 @@
 
 ## How to configure profiles
 
-1. Open the [**Microsoft Endpoint Manager**](https://endpoint.microsoft.com/) an sign-in with your **Intune Administrator** or different user who has enough permission to configure Windows policies. 
+1. Open the [**Microsoft Endpoint Manager**](https://endpoint.microsoft.com/) and sign-in with your **Intune Administrator** or different user who has enough permission to configure Windows policies. 
 
 2.  Navigate to Devices > Windows > Configuration profiles and click on **Create profile**.
 
