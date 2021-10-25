@@ -1,4 +1,5 @@
-# Intune Configuration Policies for Optimization Windows 10/10 multi-session 
+# Intune Configuration Policies for VDI Optimization
+## Windows 11/10 multi-session (Computer Settings only)
 
 |Settings Description   | Value  |
 |---|---|
