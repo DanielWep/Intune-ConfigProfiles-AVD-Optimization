@@ -150,3 +150,17 @@ For deeper analysis, you can use this command to create a CAB file that contains
 ```
 mdmdiagnosticstool.exe -area DeviceEnrollment;DeviceProvisioning;Autopilot -cab C:\Users\Public\Documents\MDMDiagReport.cab
 ```
+
+### How to see applied configuration profiles in Intune
+
+1. Open the [**Microsoft Endpoint Manager**](https://endpoint.microsoft.com/) and sign-in with your **Intune Administrator** or different user who has enough permission to configure Windows policies. 
+
+2. Navigate to **Devices > Windows** and select your specific device which you want to verify. 
+
+3. Open the **Device Configuration** and select the settings catalog policy.
+
+![pic006.png](/media/pic006.png)
+
+4. Then you will get an overview of all settings, whether they were applied, failed or not applied. You can click on each setting to get more information, for example about the error message. 
+
+> The status "Not applicable" means that specific settings are not supported by the Windows version or edition running on the VM.
