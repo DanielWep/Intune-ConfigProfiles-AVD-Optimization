@@ -155,7 +155,7 @@ mdmdiagnosticstool.exe -area DeviceEnrollment;DeviceProvisioning;Autopilot -cab 
 
 1. Open the [**Microsoft Endpoint Manager**](https://endpoint.microsoft.com/) and sign-in with your **Intune Administrator** or different user who has enough permission to configure Windows policies. 
 
-2. Navigate to **Devices > Windows** and select your specific device which you want to verify. 
+2. Navigate to **Devices > Windows** and select the device you want to check. 
 
 3. Open the **Device Configuration** and select the settings catalog policy.
 
