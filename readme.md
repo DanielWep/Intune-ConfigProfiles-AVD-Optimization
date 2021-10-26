@@ -122,7 +122,7 @@ As Administrator, you will find many **Schedule Tasks** for the MDM Synchronizat
 
 If you want to perform synchronization from the Endpoint Manager / Intune administration panel, you can select your Windows 10/11 device and use the "Sync" button.
 
-![pic003.png](/media/pic003.png)
+![pic005.png](/media/pic005.png)
 
 > It takes some time for the check-in time to be updated in the device overview table. 
 
