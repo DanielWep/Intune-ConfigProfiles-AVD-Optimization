@@ -40,7 +40,7 @@ This document is designed to give you an overview of how to optimize your Azure 
 
 ## Windows 11/10 multi-session settings (Computer Settings only)
 
-> [!NOTE] User settings for Windows 11/10 multi-session are currently not supported. [See more details here.](https://docs.microsoft.com/en-us/mem/intune/fundamentals/azure-virtual-desktop-multi-session#overview)
+> User settings for Windows 11/10 multi-session are currently not supported. [See more details here.](https://docs.microsoft.com/en-us/mem/intune/fundamentals/azure-virtual-desktop-multi-session#overview)
 
 These settings are based on the [Virtual-Desktop-Optimization-Tool](https://github.com/The-Virtual-Desktop-Team/Virtual-Desktop-Optimization-Tool):
 
@@ -105,7 +105,7 @@ These settings are based on the [Virtual-Desktop-Optimization-Tool](https://gith
 |Allow widgets|Not allowed|
 |Manage Preview Builds|Disable Preview builds|
 
-> [!NOTE] The settings for chat icon and widgets are effective only on Windows 11.
+> The settings for chat icon and widgets are effective only on Windows 11.
 
 ## Where is the option "gpupdate /force"?
 
@@ -124,7 +124,7 @@ If you want to perform synchronization from the Endpoint Manager / Intune admini
 
 ![pic005.png](/media/pic005.png)
 
-> [!NOTE] It takes some time for the check-in time to be updated in the device overview table. 
+> It takes some time for the check-in time to be updated in the device overview table. 
 
 ## Troubleshooting
 
@@ -134,7 +134,7 @@ Windows 10/11 includes a [MDM diagnostic tool](https://docs.microsoft.com/en-us/
 
 The commands can be performed via CMD or Powershell.
 
-> [!NOTE] The output paths are examples and must be modified to best fit your environment. 
+> The output paths are examples and must be modified to best fit your environment. 
 
 This command creates a collection of all important log files, which in most cases help to solve the problems. 
 ```
