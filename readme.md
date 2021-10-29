@@ -107,6 +107,8 @@ These settings are based on the [Virtual-Desktop-Optimization-Tool](https://gith
 
 > The settings for chat icon and widgets are effective only on Windows 11.
 
+> I'm still working on importing JSON templates for device configuration profile into Intune.  
+
 ## Where is the option "gpupdate /force"?
 
 Short answer: It's gone and it's not coming back. Without Hybrid-Joined Machine, Active Directory features like Group Policy objects are not available. Azure Active Directory connected machines are managed only by Intune configuration profiles. 
